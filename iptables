@@ -1,4 +1,6 @@
 #iptables
+#sudo iptables-apply /etc/network/iptables
+#post-up iptables-restore /etc/network/iptables
 filter
 :INPUT ACCEPT [0:0]
 :FORWARD ACCEPT [0:0]
